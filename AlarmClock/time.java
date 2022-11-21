@@ -79,7 +79,7 @@ public class time {
 					String snooze = in.next();
 					if(snooze.equals("yes")){
 						snooze_timer+=1;
-						int counter = 5;
+						int counter = 300;
 						while(counter>=0){
 							try {  Thread.sleep(1000);
 							}
